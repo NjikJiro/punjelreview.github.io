@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+    <title>Punjel Reviews</title>
+    <style>
+        * {
+            font-family: 'Gowun Dodum', sans-serif;
+        }
+        .title {
+            width: 100%;
+            height: 250px;
+            background-color: rgb(32, 32, 31);
+            background-position: center;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .mycards{
+            position: center;
+            margin: 20px auto 0px auto;
+            width: 95%;
+            max-width: 1200px;
+        }
+
+        .inner{
+            overflow: hidden;
+        }
+
+        .inner img{
+            transition: all 0.5s ease;
+        }
+
+        .inner:hover img{
+            transform: scale(1.1);
+        }
+
+        .link:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1>Punjel's Movie Reviews</h1>
+    </div>
+
+    <div class="mycards">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+
+            <div class="col">
+                <div class="card shadow" style="width: 18rem;">
+                    <div class = "inner">
+                        <img src="https://m.media-amazon.com/images/M/MV5BZjE2NGYwMGQtOWE4MC00NTFjLTk3YTgtMWI5ZmZlMzUyYzExXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+                        class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Ayla : The Daughter Of War (2017)</h5>
+                        <p class="card-text">Director : Matt Reeves</p>
+                        <p>Duration : 2 hours 5 minutes</p>
+                        <a class = "link" href="https://www.facebook.com/100000425086249/posts/4535620096462115/">Review</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+</body>
+</html>
